@@ -106,7 +106,6 @@ class Theme(Menu):
 		pygame.draw.circle(self.win,self.default,[400,590],self.radius)
 		pygame.draw.circle(self.win,(252, 65, 3),[400,590],self.radius//6)
 		pygame.draw.line(self.win,(252, 65, 3),[400,590],[400,420],8)
-		pass
 	def switch(self):
 		pygame.draw.polygon(self.win,self.colors[0],[(80,500),(180,470),(180,530)])
 		pygame.draw.polygon(self.win,self.colors[0],[(720,500),(620,470),(620,530)])
